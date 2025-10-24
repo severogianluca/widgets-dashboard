@@ -1,4 +1,5 @@
-import { loadProductWidget, loadQuoteWidget } from "./widgets.js";
+import { loadProductWidget, loadQuoteWidget, loadRecipeWidget } from "./widgets.js";
 
 loadQuoteWidget();
 loadProductWidget();
+loadRecipeWidget();
