@@ -1,1 +1,7 @@
-// qui dentro mettero funzioni helper per loader, errori, DOM
+export function showLoader(container) {
+  container.innerHTML = 'Caricamento...';
+}
+
+export function showError(container, message) {
+  container.innerHTML = `<p style="color: red;">${message}</p>`;
+}
